@@ -20,6 +20,7 @@ const homepage = () => {
         <div id="education">
           <Education></Education>
         </div>
+        <div className="divider divider-primary"></div>
         <div id="work">
           <Work></Work>
         </div>
