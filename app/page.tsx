@@ -11,22 +11,20 @@ const homepage = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      <div id="home">
+      <div id="home" className="pt-16 -mt-16">
         <Hero></Hero>
       </div>
-      <div id="about">
+      <div id="about" className="pt-16 -mt-16">
         <About></About>
       </div>
-      <div id="resume">
-        <div id="education">
-          <Education></Education>
-        </div>
-        <div className="divider divider-primary"></div>
-        <div id="work">
-          <Work></Work>
-        </div>
-        <Footer></Footer>
+      <div id="education" className="pt-16 -mt-16">
+        <Education></Education>
       </div>
+      <div className="divider divider-primary"></div>
+      <div id="work" className="pt-16 -mt-16">
+        <Work></Work>
+      </div>
+      <Footer></Footer>
     </div>
   );
 };

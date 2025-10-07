@@ -6,7 +6,9 @@ const navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm fixed top-0 z-50">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl">Malte Esch</a>
+        <Link href="#" className="btn btn-ghost text-xl">
+          Malte Esch
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -47,7 +49,7 @@ const navbar = () => {
               <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="#resume">Resume</Link>
+              <Link href="#education">Resume</Link>
               <ul className="p-2">
                 <li>
                   <Link href="#education">Education</Link>
