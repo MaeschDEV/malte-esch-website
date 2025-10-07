@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import React from "react";
 import { MdArrowBackIosNew } from "react-icons/md";
 
-const backButtonImpressum = () => {
+const BackButtonImpressum = () => {
   const router = useRouter();
 
   return (
@@ -13,4 +13,4 @@ const backButtonImpressum = () => {
   );
 };
 
-export default backButtonImpressum;
+export default BackButtonImpressum;

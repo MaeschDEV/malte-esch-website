@@ -11,8 +11,8 @@ const work = () => {
             <p className="italic">STAR Student</p>
             <p className="mb-5">September 2025 - September 2028 (planned)</p>
             <p>
-              I'm currently doing my STAR program at SAP. In this time, I'm
-              going to have 6 rotations in different departments.
+              I&apos;m currently doing my STAR program at SAP. In this time,
+              I&apos;m going to have 6 rotations in different departments.
             </p>
           </li>
         </ul>
