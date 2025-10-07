@@ -18,10 +18,10 @@ const education = () => {
               <p>Completed with grade: 2,0</p>
               <p>August 2017 - June 2025</p>
             </div>
-            <hr className="mt-2 bg-accent" />
+            <hr className="mt-2 bg-primary" />
           </li>
           <li>
-            <hr className="mb-2 bg-accent" />
+            <hr className="mb-2 bg-primary" />
             <div className="timeline-middle">
               <FaCircleQuestion></FaCircleQuestion>
             </div>
