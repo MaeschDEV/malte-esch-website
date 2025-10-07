@@ -9,14 +9,16 @@ const homepage = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      <div id="home" className="pt-16">
+      <div id="home">
         <Hero></Hero>
       </div>
       <div id="about">
         <About></About>
       </div>
-      <div id="education">
-        <Education></Education>
+      <div id="resume">
+        <div id="education">
+          <Education></Education>
+        </div>
       </div>
     </div>
   );
