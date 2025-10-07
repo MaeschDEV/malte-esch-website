@@ -6,7 +6,7 @@ const about = () => {
       <aside>
         <div className="avatar">
           <div className="w-24 rounded-full">
-            <img src="/avatar.jpg" />
+            <img src="/avatar.webp" />
           </div>
         </div>
       </aside>

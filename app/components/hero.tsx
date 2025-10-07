@@ -6,7 +6,7 @@ const hero = () => {
     <div
       className="hero min-h-screen"
       style={{
-        backgroundImage: "url(/PXL_20250706_132924764.jpg)",
+        backgroundImage: "url(/background.webp)",
       }}
     >
       <div className="hero-overlay bg-black/60"></div>
