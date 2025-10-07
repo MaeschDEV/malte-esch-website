@@ -1,4 +1,5 @@
 import About from "./components/about";
+import Education from "./components/education";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 
@@ -13,6 +14,9 @@ const homepage = () => {
       </div>
       <div id="about">
         <About></About>
+      </div>
+      <div id="education">
+        <Education></Education>
       </div>
     </div>
   );
