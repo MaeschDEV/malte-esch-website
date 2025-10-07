@@ -1,3 +1,4 @@
+import IconButtonsHero from "./iconButtonsHero";
 import React from "react";
 
 const hero = () => {
@@ -13,9 +14,11 @@ const hero = () => {
         <div className="max-w-md">
           <h1 className="mb-5 text-8xl font-bold">Hey 👋</h1>
           <p className="mb-5 text-5xl font-bold">I am Malte Esch.</p>
-          <p className="mb-5 text-2xl">
+          <p className="mb-5 text-xl">
             Dual student in Business Informatics at SAP and DHBW Mannheim.
           </p>
+          <div className="divider divider-primary"></div>
+          <IconButtonsHero></IconButtonsHero>
         </div>
       </div>
     </div>
