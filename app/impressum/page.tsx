@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import BackButtonImpressum from "../components/backButtonImpressum";
 import React from "react";
 
@@ -58,6 +59,33 @@ const page = () => {
       </div>
     </div>
   );
+};
+
+export const metadata: Metadata = {
+  title: "Malte Esch - impressum",
+  description: "Impressum of malte-esch.de.",
+  openGraph: {
+    title: "Malte Esch - impressum",
+    description: "Impressum of malte-esch.de.",
+    url: "https://malte-esch.de/impressum",
+    siteName: "Malte Esch",
+    images: [
+      {
+        url: "/avatar.webp",
+        width: 720,
+        height: 720,
+        alt: "Malte Esch",
+      },
+      {
+        url: "/background.webp",
+        width: 2560,
+        height: 1928,
+        alt: "Background",
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
 };
 
 export default page;
