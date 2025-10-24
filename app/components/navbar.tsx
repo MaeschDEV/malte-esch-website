@@ -31,6 +31,9 @@ const navbar = () => {
               </ul>
             </details>
           </li>
+          <li>
+            <Link href="#projects">Projects</Link>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
@@ -59,8 +62,11 @@ const navbar = () => {
                 </li>
               </ul>
             </li>
+            <li>
+              <Link href="#projects">Projects</Link>
+            </li>
           </ul>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );
