@@ -4,6 +4,7 @@ import Education from "./components/education";
 import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
+import Projects from "./components/projects";
 import Work from "./components/work";
 
 const homepage = () => {
@@ -24,6 +25,10 @@ const homepage = () => {
       <div className="divider divider-primary"></div>
       <div id="work" className="pt-16 -mt-16">
         <Work></Work>
+      </div>
+      <div className="divider divider-primary"></div>
+      <div id="projects" className="pt-16 -mt-16">
+        <Projects></Projects>
       </div>
       <Footer></Footer>
     </div>
