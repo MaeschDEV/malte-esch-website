@@ -78,7 +78,10 @@ const page = () => {
         </ul>
         <button className="mt-5 btn">
           <FaGithub className="w-5 h-5"></FaGithub>
-          <Link href="https://github.com/MaeschDEV/malte-esch-website">
+          <Link
+            href="https://github.com/MaeschDEV/malte-esch-website"
+            target="_blank"
+          >
             View the code on GitHub
           </Link>
         </button>
