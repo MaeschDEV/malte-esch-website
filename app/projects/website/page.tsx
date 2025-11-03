@@ -12,6 +12,7 @@ import { SiEslint } from "react-icons/si";
 import { SiPrettier } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
+import { Metadata } from "next";
 
 const page = () => {
   return (
@@ -88,6 +89,33 @@ const page = () => {
       </div>
     </div>
   );
+};
+
+export const metadata: Metadata = {
+  title: "Malte Esch - Projects: Website",
+  description: "An overview over my website project",
+  openGraph: {
+    title: "Malte Esch - Projects: Website",
+    description: "An overview over my website project",
+    url: "https://malte-esch.de/projects/website",
+    siteName: "Malte Esch",
+    images: [
+      {
+        url: "/avatar.webp",
+        width: 720,
+        height: 720,
+        alt: "Malte Esch",
+      },
+      {
+        url: "/background.webp",
+        width: 2560,
+        height: 1928,
+        alt: "Background",
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
 };
 
 export default page;

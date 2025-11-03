@@ -36,11 +36,11 @@ const homepage = () => {
 };
 
 export const metadata: Metadata = {
-  title: "Malte Esch - resume",
+  title: "Malte Esch - Resume",
   description:
     "Resume of Malte Esch, dual student business informatics at SAP Germany.",
   openGraph: {
-    title: "Malte Esch - resume",
+    title: "Malte Esch - Resume",
     description:
       "Resume of Malte Esch, dual student business informatics at SAP Germany.",
     url: "https://malte-esch.de",

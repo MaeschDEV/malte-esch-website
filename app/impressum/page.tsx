@@ -62,10 +62,10 @@ const page = () => {
 };
 
 export const metadata: Metadata = {
-  title: "Malte Esch - impressum",
+  title: "Malte Esch - Impressum",
   description: "Impressum of malte-esch.de.",
   openGraph: {
-    title: "Malte Esch - impressum",
+    title: "Malte Esch - Impressum",
     description: "Impressum of malte-esch.de.",
     url: "https://malte-esch.de/impressum",
     siteName: "Malte Esch",
