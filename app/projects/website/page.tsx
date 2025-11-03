@@ -1,5 +1,3 @@
-"use client";
-
 import BackButtonImpressum from "../../components/backButtonImpressum";
 import IconButton from "@/app/components/iconButton";
 import TechStack from "@/app/components/techStack";
@@ -35,43 +33,43 @@ const page = () => {
           </li>
 
           <TechStack
-            icon={VscVscode}
+            icon={<VscVscode className="size-10 rounded-box" />}
             title="Visual Studio Code"
             description="An IDE for coding by Microsoft."
             link="https://code.visualstudio.com/"
           ></TechStack>
           <TechStack
-            icon={RiNextjsFill}
+            icon={<RiNextjsFill className="size-10 rounded-box" />}
             title="Next.js"
             description="A React framework for server-side rendering and static websites."
             link="https://nextjs.org/"
           ></TechStack>
           <TechStack
-            icon={SiTypescript}
+            icon={<SiTypescript className="size-10 rounded-box" />}
             title="TypeScript"
             description="Adds additional syntax to JavaScript"
             link="https://www.typescriptlang.org/"
           ></TechStack>
           <TechStack
-            icon={RiTailwindCssFill}
+            icon={<RiTailwindCssFill className="size-10 rounded-box" />}
             title="Tailwindcss"
             description="CSS framework for consistent and responsive design."
             link="https://tailwindcss.com/"
           ></TechStack>
           <TechStack
-            icon={IoLogoVercel}
+            icon={<IoLogoVercel className="size-10 rounded-box" />}
             title="Vercel"
             description="Hosting platform for automated deployments directly from GitHub."
             link="https://vercel.com/"
           ></TechStack>
           <TechStack
-            icon={SiEslint}
+            icon={<SiEslint className="size-10 rounded-box" />}
             title="ESLint"
             description="Handles error detection for JavaScript and TypeScript."
             link="https://eslint.org/"
           ></TechStack>
           <TechStack
-            icon={SiPrettier}
+            icon={<SiPrettier className="size-10 rounded-box" />}
             title="Prettier"
             description="Code formatter for Visual Studio Code."
             link="https://prettier.io/"

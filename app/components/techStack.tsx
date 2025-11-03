@@ -1,20 +1,20 @@
+"use client";
+
 import React from "react";
 import { MdOpenInNew } from "react-icons/md";
 import IconButton from "./iconButton";
 
 interface Props {
-  icon: React.ElementType;
+  icon: React.ReactNode;
   title: string;
   description: string;
   link: string;
 }
 
-const techStack = ({ icon: Icon, title, description, link }: Props) => {
+const techStack = ({ icon, title, description, link }: Props) => {
   return (
     <li className="list-row">
-      <div>
-        <Icon className="size-10 rounded-box"></Icon>
-      </div>
+      <div>{icon}</div>
       <div>
         <div>{title}</div>
         <div className="text-xs uppercase font-semibold opacity-60">
