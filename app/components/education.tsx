@@ -4,7 +4,7 @@ import { FaCircleCheck, FaCircleQuestion } from "react-icons/fa6";
 const education = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-1/2 p-10">
+      <div className="lg:w-1/2 p-10">
         <h1 className="mb-5 text-2xl font-semibold text-left">Education</h1>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
