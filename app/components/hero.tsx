@@ -1,5 +1,4 @@
 import IconButtonsHero from "./iconButtonsHero";
-import React from "react";
 
 const hero = () => {
   return (

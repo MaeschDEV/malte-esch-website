@@ -1,6 +1,4 @@
-import { link } from "fs";
 import Link from "next/link";
-import React from "react";
 
 interface Props {
   imgSource: string;
