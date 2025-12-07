@@ -1,5 +1,3 @@
-import React from "react";
-
 const projectCardSceleton = () => {
   return (
     <div className="card bg-neutral text-neutral-content lg:w-96 shadow-sm">

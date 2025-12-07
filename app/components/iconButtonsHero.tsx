@@ -1,6 +1,5 @@
 "use client";
 import IconButton from "./iconButton";
-import React from "react";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 
 const iconButtonsHero = () => {

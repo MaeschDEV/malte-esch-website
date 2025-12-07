@@ -1,5 +1,3 @@
-import Link from "next/link";
-import React from "react";
 import ProjectCard from "./projectCard";
 import ProjectCardSceleton from "./projectCardSceleton";
 

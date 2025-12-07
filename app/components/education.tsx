@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCircleCheck, FaCircleQuestion } from "react-icons/fa6";
 
 const education = () => {

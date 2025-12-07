@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { MdMenu } from "react-icons/md";
 
 const navbar = () => {
