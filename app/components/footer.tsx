@@ -1,6 +1,5 @@
 import IconButtonsHero from "./iconButtonsHero";
 import Link from "next/link";
-import React from "react";
 
 const footer = () => {
   return (

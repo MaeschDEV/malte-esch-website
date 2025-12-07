@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import React from "react";
 import { MdArrowBackIosNew } from "react-icons/md";
 
 const BackButtonImpressum = () => {
