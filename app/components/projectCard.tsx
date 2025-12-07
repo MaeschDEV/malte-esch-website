@@ -1,21 +1,39 @@
+import { link } from "fs";
 import Link from "next/link";
 import React from "react";
 
-const projectCard = () => {
+interface Props {
+  imgSource: string;
+  imgAlt: string;
+  title: string;
+  description: string;
+  linkHref: string;
+  linkText: string;
+}
+
+const projectCard = ({
+  imgSource,
+  imgAlt,
+  title,
+  description,
+  linkHref,
+  linkText,
+}: Props) => {
   return (
     <div className="card bg-neutral text-neutral-content lg:w-96 shadow-sm">
-      <figure>
-        <img src="/website_preview.webp" alt="Website Preview Image" />
+      <figure className="w-full aspect-video bg-neutral">
+        <img
+          src={imgSource}
+          alt={imgAlt}
+          className="w-full h-full object-contain object-top"
+        />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">Website</h2>
-        <p>
-          A small personal website to showcase my resume and projects. It is the
-          website you are currently visiting!
-        </p>
+        <h2 className="card-title">{title}</h2>
+        <p>{description}</p>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">
-            <Link href="/projects/website">See more</Link>
+            <Link href={linkHref}>{linkText}</Link>
           </button>
         </div>
       </div>
