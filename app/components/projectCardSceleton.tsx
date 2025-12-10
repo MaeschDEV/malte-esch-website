@@ -1,6 +1,6 @@
 const projectCardSceleton = () => {
   return (
-    <div className="card bg-neutral text-neutral-content lg:w-96 shadow-sm">
+    <div className="card bg-neutral text-neutral-content shadow-sm">
       <figure className="w-full aspect-video bg-base-200">
         <div className="skeleton w-full h-full"></div>
       </figure>
