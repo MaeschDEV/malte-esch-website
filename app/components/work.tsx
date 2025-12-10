@@ -1,9 +1,7 @@
-import React from "react";
-
 const work = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-1/2 p-10">
+      <div className="lg:w-1/2 p-10">
         <h1 className="mb-5 text-2xl font-semibold text-left">Work</h1>
         <ul>
           <li>
