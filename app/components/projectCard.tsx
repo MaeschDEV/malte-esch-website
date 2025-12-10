@@ -18,7 +18,7 @@ const projectCard = ({
   linkText,
 }: Props) => {
   return (
-    <div className="card bg-neutral text-neutral-content lg:w-96 shadow-sm">
+    <div className="card bg-neutral text-neutral-content shadow-sm">
       <figure className="w-full aspect-video bg-neutral">
         <img
           src={imgSource}
