@@ -56,6 +56,7 @@ const education = () => {
                 I&apos;m currently doing my STAR program at SAP. In this time,
                 I&apos;m going to have 6 rotations in different departments.
               </p>
+              <p>September 2025</p>
             </div>
             <hr />
           </li>
