@@ -5,7 +5,6 @@ import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import Projects from "./components/projects";
-import Work from "./components/work";
 
 const homepage = () => {
   return (
@@ -21,10 +20,6 @@ const homepage = () => {
       </div>
       <div id="education" className="pt-16 -mt-16">
         <Education></Education>
-      </div>
-      <div className="divider divider-primary"></div>
-      <div id="work" className="pt-16 -mt-16">
-        <Work></Work>
       </div>
       <div className="divider divider-primary"></div>
       <div id="projects" className="pt-16 -mt-16">

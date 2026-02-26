@@ -24,17 +24,7 @@ const navbar = () => {
                 <Link href="#about">About</Link>
               </li>
               <li>
-                <details>
-                  <summary>Resume</summary>
-                  <ul className="p-2">
-                    <li>
-                      <Link href="#education">Education</Link>
-                    </li>
-                    <li>
-                      <Link href="#work">Work</Link>
-                    </li>
-                  </ul>
-                </details>
+                <Link href="#education">Education</Link>
               </li>
               <li>
                 <Link href="#projects">Projects</Link>
@@ -70,18 +60,9 @@ const navbar = () => {
           <li>
             <Link href="#about">About</Link>
           </li>
+
           <li>
-            <details>
-              <summary>Resume</summary>
-              <ul className="p-2">
-                <li>
-                  <Link href="#education">Education</Link>
-                </li>
-                <li>
-                  <Link href="#work">Work</Link>
-                </li>
-              </ul>
-            </details>
+            <Link href="#education">Education</Link>
           </li>
           <li>
             <Link href="#projects">Projects</Link>

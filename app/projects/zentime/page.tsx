@@ -4,6 +4,7 @@ import PhonePhoto from "@/app/components/phonePhoto";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import { FaFlutter } from "react-icons/fa6";
+import { Metadata } from "next";
 
 const page = () => {
   return (
@@ -60,6 +61,33 @@ const page = () => {
       </div>
     </div>
   );
+};
+
+export const metadata: Metadata = {
+  title: "Malte Esch - Projects: Zentime",
+  description: "An overview over my work-time tracking app zentime",
+  openGraph: {
+    title: "Malte Esch - Projects: Zentime",
+    description: "An overview over my work-time tracking app zentime",
+    url: "https://malte-esch.de/projects/zentime",
+    siteName: "Malte Esch",
+    images: [
+      {
+        url: "/avatar.webp",
+        width: 720,
+        height: 720,
+        alt: "Malte Esch",
+      },
+      {
+        url: "/background.webp",
+        width: 2560,
+        height: 1928,
+        alt: "Background",
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
 };
 
 export default page;
