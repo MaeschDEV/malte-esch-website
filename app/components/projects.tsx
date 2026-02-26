@@ -15,6 +15,14 @@ const projects = () => {
           linkHref="/projects/website"
           linkText="See more"
         ></ProjectCard>
+        <ProjectCard
+          imgSource="/zentime_preview.png"
+          imgAlt="Zentime Preview"
+          title="Zentime"
+          description="A small app for tracking your workime."
+          linkHref="/projects/zentime"
+          linkText="See more"
+        ></ProjectCard>
         <ProjectCardSceleton></ProjectCardSceleton>
       </div>
     </div>

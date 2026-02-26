@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import BackButtonImpressum from "../components/backButtonImpressum";
-import React from "react";
 
 const page = () => {
   return (

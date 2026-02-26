@@ -1,13 +1,9 @@
 import BackButtonImpressum from "../../components/backButtonImpressum";
-import IconButton from "@/app/components/iconButton";
 import TechStack from "@/app/components/techStack";
-import { VscVscode } from "react-icons/vsc";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoVercel } from "react-icons/io5";
-import { SiEslint } from "react-icons/si";
-import { SiPrettier } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import { Metadata } from "next";
