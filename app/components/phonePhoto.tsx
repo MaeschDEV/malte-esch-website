@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-interface PhonePhotoProps {
+interface Props {
   srcLight: string;
   srcDark: string;
   alt: string;
 }
 
-const PhonePhoto = ({ srcLight, srcDark, alt }: PhonePhotoProps) => {
+const PhonePhoto = ({ srcLight, srcDark, alt }: Props) => {
   return (
     <div className="w-64">
       <div className="mockup-phone">

@@ -20,7 +20,7 @@ const page = () => {
         <p>Malte Esch</p>
         <br></br>
         <p className="font-bold">Kontakt:</p>
-        <p>E-Mail: contact@malte-esch.de</p>
+        <p>E-Mail: esch-malte@proton.me</p>
         <br></br>
         <p className="font-bold">Haftungsausschluss:</p>
         <br></br>
