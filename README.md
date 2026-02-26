@@ -7,7 +7,7 @@
 > #### Scroll animation
 >
 > - [ ] Fade-in, Slide-up effects as sections come into view <br>
-> _Framer Motion_ or _CSS animations_
+>       _Framer Motion_ or _CSS animations_
 
 > #### Hover effects
 >
@@ -15,7 +15,7 @@
 
 > #### Typing effect
 >
-> - [ ] The hero should get a typewriter effect for the "I am Malte Esch" text
+> - [x] The hero should get a typewriter effect for the "I am Malte Esch" text
 
 > #### Smooth scroll
 >
@@ -31,7 +31,7 @@
 
 ### Hero Section enhancements
 
-> - [ ] Typewriter effect as said before
+> - [x] Typewriter effect as said before
 > - [ ] Subtle parallax effect on the background
 > - [ ] Animated floating elements or particles
 > - [ ] Scroll indicator (e.g. animated arrow pointing down)
@@ -70,6 +70,7 @@
 ---
 
 ### Quick and easy stuff
+
 > - [ ] Glassmorphism effect on cards
 > - [ ] Gradient texts for headings
 > - [ ] Cutstom cursor (maybe pixel art)
