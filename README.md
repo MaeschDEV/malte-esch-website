@@ -19,7 +19,7 @@
 
 > #### Smooth scroll
 >
-> - [ ] A smoth scroll effect for the navigation. Currently it just snaps into place
+> - [x] A smoth scroll effect for the navigation. Currently it just snaps into place
 
 ---
 
