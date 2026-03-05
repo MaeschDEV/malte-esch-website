@@ -9,7 +9,7 @@ const iconButtonsHero = () => {
         onClick={() =>
           window.open(
             "https://www.linkedin.com/in/malte-esch-154964323/",
-            "_blank"
+            "_blank",
           )
         }
       >
