@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/tournament",
+      "destination": "https://turnier-app-aaebb.web.app/"
+    },
+    {
+      "source": "/tournament/:path*",
+      "destination": "https://turnier-app-aaebb.web.app/:path*"
+    }
+  ]
+}
