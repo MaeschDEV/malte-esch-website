@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/tournament/:path*",
+      "destination": "https://turnier-app-aaebb.web.app/:path*",
+      "permanent": false
+    }
+  ]
+}
